@@ -1,0 +1,144 @@
+.conten-slider{
+    width: 100%;
+    overflow: hidden;
+}
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+.contenido-slider h2{
+color:#fff;
+}
+.contenido-slider h1{
+    font-size: 22px;
+}
+#next{
+    border:none;
+    position:relative;
+    left: 200px;
+}
+#next a{
+    border:none;
+    background: none;
+}
+#about a{
+    border:none;
+    background: none;
+}
+
+.contenido-slider:nth-child(2){
+    background: #59c492;
+    color: #fff;
+}
+
+.contenido-slider:nth-child(3){
+    background: #59c492;
+    color:#fff;
+}
+.contenido-slider:nth-child(1){
+    background: #59c492;
+    color:#fff;
+}
+.contenido-slider:nth-child(4){
+    background: #59c492;
+    color:#fff;
+}
+
+.contenido-slider > img{
+    width: 320px;
+    margin-left: 100px;
+
+
+}
+
+.contenido-slider > div{
+    width: 40%;
+}
+
+.contenido-slider h2{
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contenido-slider a{
+    color: #fff;
+    background: #06442763;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+    border:solid #fff 1px;
+}
+
+.contenido-slider:nth-child(0) a{
+    background: #fff;
+    color: #332863;
+    
+}
+
+
+@media screen and (max-width:900px){
+    .contenido-slider > img{
+        width: 220px;
+    }
+
+    .contenido-slider > div{
+        width: 40%;
+    }
+
+    .contenido-slider h2{
+        font-size: 20px;
+    }
+    .contenido-slider h1{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .contenido-slider{
+       flex-direction: column-reverse;
+    }
+
+    .contenido-slider > div{
+        width: 80%;
+    }
+    .contenido-slider img{
+        width: 200px;
+        align-items: center;
+        margin-top: 8px;
+   
+    }
+    .contenido-slider h2{
+        font-size:15px;
+    }
+    .contenido-slider{
+        height:350px;
+    }
+}
+
+    @media screen and(max-width:400px){
+    .contenido-slider > img{
+        width: 100px;
+    }
+    .conten-slider{
+        height: 200px;
+    }
+    .contenido-slider h2{
+        font-size: 18px;
+    }
+
+}
