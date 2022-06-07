@@ -1,20 +1,24 @@
 {
-  "name": "proyecto-final",
+  "name": "clear",
   "version": "1.0.0",
-  "description": "",
+  "description": "una tarea",
   "main": "index.js",
-  "scripts":{
-    "start":"nodemon index.js",
+  "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Marck66-34/coderhouseclase05.git"
   },
-  "author": "",
+  "author": "marco",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Marck66-34/coderhouseclase05/issues"
   },
-  "homepage": "https://github.com/Marck66-34/coderhouseclase05#readme"
+  "homepage": "https://github.com/Marck66-34/coderhouseclase05#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {}
 }
