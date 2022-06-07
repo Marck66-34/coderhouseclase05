@@ -81,7 +81,7 @@ header{
 
  }
 
- .hamburguer>i {
+ .hamburguer i {
      font-size: 25px;
      line-height: 80px;
  }
@@ -252,4 +252,4 @@ header{
     .hamburguer img {
         width: 30%;
         margin-top: 20px;
-    }
+    }};
